@@ -95,7 +95,7 @@ class Login extends Component {
           <h3>Login</h3>
           <div className="big-container">
             <Form>
-              <label>Username</label>
+              {/* <label>Username</label> */}
               <Form.Control
                 style={usernamestyle}
                 type="text"
@@ -106,7 +106,7 @@ class Login extends Component {
               />
               <div className="err-msg">{errusername ? errusername : ""}</div>
               <br />
-              <label>Password</label>
+              {/* <label>Password</label> */}
               <Form.Control
                 style={passstyle}
                 type="password"
