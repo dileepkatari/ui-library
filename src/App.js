@@ -1,24 +1,24 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Registration from './registration form';
+import FormsPage from './boot';
+import Firstname from './firstname';
+import LastName from './Lastname';
+import { Row, Col } from 'react-bootstrap'
+import Birth from './Dob'
+import EducationDegree from './Education'
+import GenderSelect from './Gender'
+import Submitting from './submit'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+       < FormsPage />
+    
+      
+    
+      
     </div>
   );
 }
